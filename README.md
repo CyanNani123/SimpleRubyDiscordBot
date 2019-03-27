@@ -1,5 +1,5 @@
 # SimpleRubyDiscordBot
-A simple Discord bot written in ruby with submodules
+A simple Discord bot written in ruby with discordrb
 
 * You will need to create a bot app at the Discord dev portal to get a token and client_id first
 * Add your data to the config file and place it above the directory or alter the path in the program
