@@ -1,4 +1,5 @@
 # SimpleRubyDiscordBot
+
 A simple Discord bot using discordrb.
 
 Quick Guide:
@@ -11,4 +12,3 @@ Quick Guide:
 
 
 Notice: on Windows you can update your doc by using the make_doc.bat
-
