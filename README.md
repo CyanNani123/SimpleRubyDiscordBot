@@ -1,8 +1,14 @@
 # SimpleRubyDiscordBot
-A simple Discord bot written in ruby with submodules
+A simple Discord bot using discordrb.
 
-* You will need to create a bot app at the Discord dev portal to get a token and client_id first
-* Add your data to the config file and place it above the directory or alter the path in the program
-* On Windows you can update your doc by using the make_doc.bat
-* Install the necessary gems with the bundler gem: bundle install
-* Make the bot run with the SimpleRubyDiscordBot.rb
+Quick Guide:
+============
+ 
+1. Install the necessary gems with bundler: `bundle install`
+2. create a bot app at the Discord dev portal to get a token and client_id
+3. make an own config file with the template
+4. run with run with `ruby SimpleRubyDiscordBot.rb`
+
+
+Notice: on Windows you can update your doc by using the make_doc.bat
+
