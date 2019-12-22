@@ -1,9 +1,0 @@
-#rename this file into config.json and place it one folder above the repo
-#add your parameters in the following json file
-#delete this comment aswell
-{
-  "token": "bot token",
-  "client_id": bot id,
-  "prefix": "prefix e.g. ~",
-  "owner_id": your user id
-}
