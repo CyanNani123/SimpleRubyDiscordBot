@@ -17,6 +17,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     e2mmap (0.1.0)
     event_emitter (0.2.6)
+    ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
     http-accept (1.7.0)
     http-cookie (1.0.3)
@@ -28,7 +29,9 @@ GEM
     mime-types-data (3.2018.0812)
     mini_portile2 (2.4.0)
     netrc (0.11.0)
-    nokogiri (1.10.7-x64-mingw32)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.8-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     opus-ruby (1.0.1)
       ffi
@@ -38,7 +41,6 @@ GEM
     rainbow (3.0.0)
     rbnacl (3.4.0)
       ffi
-    regexp_parser (1.7.1)
     rest-client (2.1.0.rc1-x64-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -78,6 +80,7 @@ GEM
     tilt (2.0.10)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.5)
     unf_ext (0.0.7.5-x64-mingw32)
     unicode-display_width (1.7.0)
     websocket (1.2.8)
@@ -88,6 +91,7 @@ GEM
     yard (0.9.25)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
