@@ -1,8 +1,8 @@
-#@example displays random cat pic
+# @example displays random cat pic
 #  ~cat
-#@example displays random dog pic
+# @example displays random dog pic
 #  ~dog
-#@example displays random catfact
+# @example displays random catfact
 #  ~catfact
 module Cat
   extend Discordrb::Commands::CommandContainer
