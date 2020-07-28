@@ -1,4 +1,6 @@
-#@example displays channel info
+# frozen_string_literal: true
+
+# @example displays channel info
 #  ~channelinfo <optional: channelid>
 module ChannelInfo
   extend Discordrb::Commands::CommandContainer
@@ -40,9 +42,13 @@ module ChannelInfo
 
         e.description = channel.topic if type == 'Text'
 
-        e.add_field(name: 'Online Users', value: channel.users.count, inline: true) if type == 'Text'
+        if type == 'Text'
+          e.add_field(name: 'Online Users', value: channel.users.count, inline: true)
+        end
 
-        e.add_field(name: 'Users in Channel', value: channel.users.count, inline: true) if type == 'Voice'
+        if type == 'Voice'
+          e.add_field(name: 'Users in Channel', value: channel.users.count, inline: true)
+        end
 
         e.add_field(name: 'Type', value: type, inline: true)
 
